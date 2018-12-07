@@ -40,3 +40,4 @@ Cyber-punk/Foresty [See Horizon Zero Dawn](https://www.playstation.com/en-us/gam
 ___
 
 ![Evoventure Pipeline](https://github.com/Grubbly/Evoventure/blob/master/evoventure.png)
+Figure 1: In the beginning, up to three graphical enhancements are loaded into empty rendering slots (the middle boxes in the diagram). Depending on the equipped enhancements, the rendering could help or harm the player. Imagine a user has four graphical enhancements: 3rd person control, combat, sound and music, and animation. An example of a valid combination would be 3rd person control, sound and music, and animations, but the user would have to figure out ways to avoid combat because they would not be able to fight. Some enhancements are obviously incompatible like 2D platforming and 3rd person controls, so keep this in mind when implementing error checking.
