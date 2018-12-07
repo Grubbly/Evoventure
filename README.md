@@ -2,12 +2,12 @@
 An adventure game based on [Evoland](http://www.evoland2.com/) that implements topics learned in an introductory graphics course.
 
 ## Premise
-You are a renderer in a world that constantly changes appearance. Throughout your various quests and explorations, you will discover new graphical enhancements that will expand where and what you can do in the game. The world is extensive, but your rendering capabilities are not. In the beginning you will be limited to the number of graphical enhancements that can be active at a time. The combinations you choose will affect how you can interact with the environment.
+You are a renderer in a world that constantly changes appearance. Throughout your various quests and explorations, you will discover new graphical enhancements that will expand where and what you can do in the game. The world is extensive, but your rendering capabilities are not. In the beginning you will be limited to a capped number of graphical enhancements that can be active at a time. The combinations you choose will affect how you can interact with the environment.
 
 ___
 
 # Developer Documentation
-As assigned, the primary theme for this game is a journey. 
+As assigned, the primary theme for this game is a journey. The fact users have to choose between different graphical enhancements allows us to adopt the previous Ludum Dare theme of sacrifice. Added plus!
 
 ## Setting
 Cyber-punk/Foresty [See Horizon Zero Dawn](https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/)
