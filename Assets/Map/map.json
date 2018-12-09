@@ -1,0 +1,13 @@
+{
+    "objects": [
+        {
+            "filename": "Capacitor",
+            "category": "Buildings",
+            "position": {
+                "x": 100,
+                "y": 100,
+                "z": 50
+            }
+        }
+    ]
+}
