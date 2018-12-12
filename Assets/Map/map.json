@@ -4,10 +4,11 @@
             "filename": "Capacitor",
             "category": "Buildings",
             "position": {
-                "x": 100,
-                "y": 100,
-                "z": 50
-            }
+                "x": 70,
+                "y": -26,
+                "z": 30
+            },
+            "rotation": 70
         }
     ]
 }
