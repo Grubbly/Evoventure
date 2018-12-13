@@ -30,7 +30,8 @@ public class MapHolder
 }
 
 public class MapParser3D : MonoBehaviour {
-	public string mapFile = "Assets/Map/map.json";	
+	public string mapFile = "Assets/Map/map.json";
+	public string playerPositionFile = "Assets/Map/player.txt";	
 	public string mapPrefabsLocation = "Assets/resources/MapPrefabs";
 	public bool setMapMode = true;
 	private MapHolder worldMap;
@@ -164,7 +165,38 @@ public class MapParser3D : MonoBehaviour {
 		System.IO.File.WriteAllText(mapFile, worldMapJSON);
 	}
 
-	void Start () {
+	public GameObject getPlayer() {
+		return GameObject.FindGameObjectsWithTag("Player")[0];
+	}
+
+	public xyz getPlayerPosition() {
+		xyz position = new xyz();
+		GameObject player = getPlayer();
+		position.x = (int)(player.transform.position.x - gameObject.transform.position.x);
+		position.y = (int)(player.transform.position.y - gameObject.transform.position.y);
+		position.z = (int)(-(player.transform.position.z - gameObject.transform.position.z));
+		Debug.Log("Px:" + player.transform.position.x + " Py:" + player.transform.position.y + " Pz:" + player.transform.position.z);
+		return position;
+	}
+
+	public void updatePlayerPositionFile() {
+		xyz playerPosition = getPlayerPosition();
+		string positionOut = playerPosition.x + "\n" + playerPosition.y + "\n" + playerPosition.z;
+		System.IO.File.WriteAllText(playerPositionFile, positionOut);
+	}
+
+	public void loadPositionFromFile() {
+		string [] position = File.ReadAllLines(playerPositionFile);
+
+		float xPos = float.Parse(position[0]) + gameObject.transform.position.x;
+		float yPos = float.Parse(position[1]) + gameObject.transform.position.y;
+		float zPos = -(float.Parse(position[2]) - gameObject.transform.position.z);
+		Debug.Log("x:" + xPos + " y:" + yPos + " z:" + zPos);
+		GameObject player = getPlayer();
+		player.transform.position = new Vector3(xPos, yPos, zPos);
+	}
+
+	void Start() {
 		loadedObjects = new List<GameObject>();
 		if (setMapMode) {
 			captureMap();
@@ -174,13 +206,14 @@ public class MapParser3D : MonoBehaviour {
 			loadMapFromJson();
 			instantiateMap();
 		}
-		
+		loadPositionFromFile();
 	}
 	
-	void Update () {
+	void Update() {
 		if (!setMapMode) {
 			loadMapFromJson();
 			updateMap();
 		}
+		updatePlayerPositionFile();
 	}
 }
