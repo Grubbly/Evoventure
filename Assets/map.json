@@ -1,0 +1,14 @@
+{
+    "objects": [
+        {
+            "filename": "Capacitor",
+            "category": "Buildings",
+            "position": {
+                "x": 70,
+                "y": -26,
+                "z": 30
+            },
+            "rotation": 70
+        }
+    ]
+}

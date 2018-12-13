@@ -1,23 +1,354 @@
 {
 "objects": [
 {
-"filename": "Capacitor",
+"filename": "Well",
 "category": "Buildings",
 "position": {
-"x": 73,
-"y": -27,
-"z": 31
+"x": 64,
+"y": -25,
+"z": 66
 },
-"rotation": "75"
+"rotation": "-270"
 },
 {
-"filename": "Capacitor",
+"filename": "OldHouse",
 "category": "Buildings",
+"position": {
+"x": 100,
+"y": -26,
+"z": 31
+},
+"rotation": "-92"
+},
+{
+"filename": "BigHouse",
+"category": "Buildings",
+"position": {
+"x": 62,
+"y": -27,
+"z": 53
+},
+"rotation": "-173"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 100,
+"y": -27,
+"z": 79
+},
+"rotation": "-267"
+},
+{
+"filename": "BigHouse",
+"category": "Buildings",
+"position": {
+"x": 135,
+"y": -25,
+"z": 48
+},
+"rotation": "-17"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 81,
+"y": -27,
+"z": 79
+},
+"rotation": "-240"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 129,
+"y": -26,
+"z": 35
+},
+"rotation": "-48"
+},
+{
+"filename": "BigHouse",
+"category": "Buildings",
+"position": {
+"x": 86,
+"y": -27,
+"z": 32
+},
+"rotation": "-122"
+},
+{
+"filename": "Warterwell",
+"category": "Buildings",
+"position": {
+"x": 98,
+"y": -24,
+"z": 59
+},
+"rotation": "-270"
+},
+{
+"filename": "Bucket",
+"category": "Buildings",
+"position": {
+"x": 98,
+"y": -26,
+"z": 53
+},
+"rotation": "-270"
+},
+{
+"filename": "Box1",
+"category": "Buildings",
+"position": {
+"x": 123,
+"y": -26,
+"z": 43
+},
+"rotation": "-270"
+},
+{
+"filename": "Box1",
+"category": "Buildings",
+"position": {
+"x": 101,
+"y": -26,
+"z": 55
+},
+"rotation": "-270"
+},
+{
+"filename": "WaterHolder",
+"category": "Buildings",
+"position": {
+"x": 68,
+"y": -25,
+"z": 72
+},
+"rotation": "-205"
+},
+{
+"filename": "Coach",
+"category": "Buildings",
+"position": {
+"x": 119,
+"y": -25,
+"z": 34
+},
+"rotation": "32"
+},
+{
+"filename": "Beacon",
+"category": "Collectables",
+"position": {
+"x": 18,
+"y": -98,
+"z": 8
+},
+"rotation": "-270"
+},
+{
+"filename": "Beacon",
+"category": "Collectables",
+"position": {
+"x": 378,
+"y": -133,
+"z": 130
+},
+"rotation": "-270"
+},
+{
+"filename": "Beacon",
+"category": "Collectables",
+"position": {
+"x": 579,
+"y": -101,
+"z": 384
+},
+"rotation": "-270"
+},
+{
+"filename": "modelTorch",
+"category": "Terrain",
 "position": {
 "x": 60,
 "y": -27,
-"z": 36
+"z": 41
 },
-"rotation": "39"
-}]
+"rotation": "-270"
+},
+{
+"filename": "modelLog",
+"category": "Terrain",
+"position": {
+"x": 427,
+"y": -61,
+"z": 163
+},
+"rotation": "-250"
+},
+{
+"filename": "modelBarrel",
+"category": "Terrain",
+"position": {
+"x": 418,
+"y": -61,
+"z": 161
+},
+"rotation": "-270"
+},
+{
+"filename": "modelBonfire",
+"category": "Terrain",
+"position": {
+"x": 422,
+"y": -62,
+"z": 161
+},
+"rotation": "-270"
+},
+{
+"filename": "modelLog",
+"category": "Terrain",
+"position": {
+"x": 422,
+"y": -61,
+"z": 158
+},
+"rotation": "-185"
+},
+{
+"filename": "modelBarrel",
+"category": "Terrain",
+"position": {
+"x": 723,
+"y": -25,
+"z": 456
+},
+"rotation": "-270"
+},
+{
+"filename": "modelLog",
+"category": "Terrain",
+"position": {
+"x": 684,
+"y": -25,
+"z": 448
+},
+"rotation": "-37"
+},
+{
+"filename": "modelBarrel",
+"category": "Terrain",
+"position": {
+"x": 685,
+"y": -25,
+"z": 454
+},
+"rotation": "-270"
+},
+{
+"filename": "modelLog",
+"category": "Terrain",
+"position": {
+"x": 692,
+"y": -25,
+"z": 477
+},
+"rotation": "-240"
+},
+{
+"filename": "Box1",
+"category": "Buildings",
+"position": {
+"x": 716,
+"y": -25,
+"z": 471
+},
+"rotation": "-270"
+},
+{
+"filename": "Coach",
+"category": "Buildings",
+"position": {
+"x": 715,
+"y": -25,
+"z": 438
+},
+"rotation": "32"
+},
+{
+"filename": "Bucket",
+"category": "Buildings",
+"position": {
+"x": 679,
+"y": -25,
+"z": 475
+},
+"rotation": "-270"
+},
+{
+"filename": "Warterwell",
+"category": "Buildings",
+"position": {
+"x": 688,
+"y": -23,
+"z": 451
+},
+"rotation": "-270"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 710,
+"y": -26,
+"z": 423
+},
+"rotation": "-231"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 723,
+"y": -26,
+"z": 466
+},
+"rotation": "45"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 702,
+"y": -26,
+"z": 472
+},
+"rotation": "-270"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 662,
+"y": -26,
+"z": 472
+},
+"rotation": "-56"
+},
+{
+"filename": "OldHouse",
+"category": "Buildings",
+"position": {
+"x": 713,
+"y": -26,
+"z": 448
+},
+"rotation": "-15"
+}
+]
 }
