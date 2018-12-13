@@ -175,7 +175,6 @@ public class MapParser3D : MonoBehaviour {
 		position.x = (int)(player.transform.position.x - gameObject.transform.position.x);
 		position.y = (int)(player.transform.position.y - gameObject.transform.position.y);
 		position.z = (int)(-(player.transform.position.z - gameObject.transform.position.z));
-		Debug.Log("Px:" + player.transform.position.x + " Py:" + player.transform.position.y + " Pz:" + player.transform.position.z);
 		return position;
 	}
 
@@ -191,7 +190,6 @@ public class MapParser3D : MonoBehaviour {
 		float xPos = float.Parse(position[0]) + gameObject.transform.position.x;
 		float yPos = float.Parse(position[1]) + gameObject.transform.position.y;
 		float zPos = -(float.Parse(position[2]) - gameObject.transform.position.z);
-		Debug.Log("x:" + xPos + " y:" + yPos + " z:" + zPos);
 		GameObject player = getPlayer();
 		player.transform.position = new Vector3(xPos, yPos, zPos);
 	}
