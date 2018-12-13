@@ -1,14 +1,23 @@
 {
-    "objects": [
-        {
-            "filename": "Capacitor",
-            "category": "Buildings",
-            "position": {
-                "x": 70,
-                "y": -26,
-                "z": 30
-            },
-            "rotation": 70
-        }
-    ]
+"objects": [
+{
+"filename": "Capacitor",
+"category": "Buildings",
+"position": {
+"x": 73,
+"y": -27,
+"z": 31
+},
+"rotation": "75"
+},
+{
+"filename": "Capacitor",
+"category": "Buildings",
+"position": {
+"x": 60,
+"y": -27,
+"z": 36
+},
+"rotation": "39"
+}]
 }
